@@ -1,0 +1,15 @@
+body {
+    font-size:small;
+}
+h1, h2 {
+
+border-bottom: dotted thin;}
+h1 {
+    font-size: 1.5em;
+}
+h2 {
+    font-size: 1.2em;
+}
+blockquote {
+    font-style: italic;
+}

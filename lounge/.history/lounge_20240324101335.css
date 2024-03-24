@@ -1,0 +1,77 @@
+body {
+  font-size: small;
+  font-family: Verdena, Helvetica, Arial, sans-serif;
+  line-height: 1.6em;
+  background-color: #ffffff;
+}
+h1,h2{
+  color: #007e7e;
+}
+
+#h3-chailchiller{
+  color: #816553
+}
+
+#h3-lemonbreeze{
+  color: #F2CC3D;
+}
+
+#h3-blackbrainbrew{
+  color:#141619;
+}
+
+h1 {
+  font-size: 1.5em;
+}
+
+h2 {
+  font-size: 1.3em;
+}
+
+.elixires{
+  
+  border: solid thin aqua;
+
+  width: 350px;
+
+  padding-bottom: 1.5em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+
+  margin-left: 40px;
+
+  text-align: center;
+
+  line-height: normal;
+
+  background-image: url(images/cocktail.gif),url(images/cocktail.gif);
+  background-repeat: repeat-x, repeat-x;
+  background-position: top left, bottom left;
+
+  h2{
+    color:black
+  }
+  h3 {
+    color: red;
+  }
+}
+
+
+#guarantee{
+  background-color: #007e7e9f;
+  border-color: #ffffff;
+  border-style: dashed;
+  padding: 25px;
+  padding-left: 80px;
+  margin: 30px;
+  width: 50%;
+
+
+  font-style: italic;
+  line-height: 1.9em;
+  color: #444444;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-image: url('images/background.gif');
+  background-repeat: no-repeat;
+  background-position: top left;
+}

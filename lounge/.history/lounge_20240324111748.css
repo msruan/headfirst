@@ -1,0 +1,87 @@
+body {
+  /* O small se refere ao font-size, e o 1.6em se refere ao line-height */
+  font: small/1.6em Verdana, Helvetica, Arial, sans-serif;
+  background: #ffffff;
+}
+
+h1,h2{
+  color: #007e7e;
+}
+
+#h3-chailchiller{
+  color: #816553;
+}
+
+#h3-lemonbreeze{
+  color: #F2CC3D;
+}
+
+#h3-blackbrainbrew{
+  color:#141619;
+}
+
+h1 {
+  font-size: 1.5em;
+}
+
+h2 {
+  font-size: 1.3em;
+}
+
+#elixires{
+  
+  border: solid thin aqua;
+
+  width: 200px;
+
+  padding-bottom: 1.5em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+
+  margin-left: 20px;
+
+  text-align: center;
+
+  line-height: 1em;
+  background: url(images/cocktail.gif) repeat-x top left, 
+              url(images/cocktail.gif) repeat-x bottom left;
+}
+
+#elixires blockquote h2 > p {
+  color: #ff09f2;
+}
+
+#elixires > h2 {
+  color: black;
+}
+
+#elixires > h3 {
+  color: rgb(150,0,0);
+}
+
+
+#guarantee{
+  background: #007e7e9f;
+  border: #ffffff, dashed;
+  padding: 25px;
+  padding-left: 80px;
+  margin: 30px;
+  width: 50%;
+
+
+  font-style: italic;
+  line-height: 1.9em;
+  color: #444444;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-image: url('images/background.gif');
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+
+.rodape {
+  font: 50%/normal sans-serif;
+  font-family: inherit;/*Infelizmente font-family é um atributo obrigatório quando se usa o atalho font, então */
+
+  text-align: center;
+  margin-top: 30px;
+}

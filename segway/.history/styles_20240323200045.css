@@ -1,0 +1,18 @@
+body {
+    font-size:small;
+    font-family: Helvetica,Verdana, Arial, sans-serif;
+}
+h1, h2 {
+
+border-bottom: dotted thin #888888}
+h1 {
+    font-size: 1.5em;
+}
+h2 {
+    font-s
+    margin-top: 1.25em;
+    font-size: 1.2em;
+}
+blockquote {
+    font-style: italic;
+}

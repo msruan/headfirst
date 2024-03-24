@@ -1,0 +1,90 @@
+body {
+  /* O small se refere ao font-size, e o 1.6em se refere ao line-height */
+  font: small/1.6em Verdana, Helvetica, Arial, sans-serif;
+  background: #ffffff;
+}
+
+h1,h2{
+  color: #007e7e;
+}
+
+#h3-chailchiller{
+  color: #816553;
+}
+
+#h3-lemonbreeze{
+  color: #F2CC3D;
+}
+
+#h3-blackbrainbrew{
+  color:#141619;
+}
+
+h1 {
+  font-size: 1.5em;
+}
+
+h2 {
+  font-size: 1.2em;
+}
+
+#elixires{
+  
+  border: solid thin aqua;
+
+  width: 200px;
+
+  padding: 0em 1.5em 1.5em 1.5em;
+
+  margin-left: 20px;
+
+  text-align: center;
+
+  line-height: 1;
+  background: url(images/cocktail.gif) repeat-x top left, 
+              url(images/cocktail.gif) repeat-x bottom left;
+}
+
+#elixires .elixires-drink {
+
+}
+
+
+#elixires blockquote h2 > p {
+  color: #ff09f2;
+}
+
+#elixires > h2 {
+  color: black;
+}
+
+#elixires > h3 {
+  color: rgb(150,0,0);
+}
+
+
+#guarantee{
+  color: #444444;
+  border: #ffffff, dashed;
+  padding: 25px;
+  padding-left: 80px;
+  margin: 30px;
+  width: 50%;
+  /* line-height: 1.9em; */
+  font: italic 300px/1.9em  Georgia, "Times New Roman", Times, serif;
+  font-size: inherit;
+  background: url('images/background.gif') no-repeat top left #007e7e9f;
+}
+
+.rodape {
+  margin: 30px 0px 0px 0px;
+  text-align: center;
+
+  font-size: 50%;
+  line-height: normal;
+  /* font: 50%/normal sans-serif;
+  font-family: inherit;*/
+  
+  /*Infelizmente font-family é um atributo obrigatório quando se usa o atalho font,  
+  então digito um nome qualquer e depois defino como herdado*/
+}

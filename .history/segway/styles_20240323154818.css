@@ -1,0 +1,13 @@
+body {
+    font-size:small;
+    text-decoration:blink;
+}
+h1 {
+    font-size: 1.5em;
+}
+h2 {
+    font-size: 1.2em;
+}
+blockquote {
+    font-style: italic;
+}

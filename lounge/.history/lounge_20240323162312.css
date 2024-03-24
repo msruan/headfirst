@@ -1,0 +1,22 @@
+body {
+  font-size: small;
+  font-family: Verdena, Helvetica, Arial, sans-serif;
+  line-height: 1.6em;
+}
+h1,h2{
+  color: #007e7e;
+}
+
+h1 {
+  font-size: 1.5em;
+}
+
+h2 {
+  font-size: 1.3em;
+}
+
+#guarantee {
+  background-color: #007e7e;
+  margin-left: 1.25em;
+  padding-left: 1.25em;
+}
